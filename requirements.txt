@@ -250,9 +250,9 @@ treelib==1.7.0 ; python_version >= "3.9" and python_full_version <= "3.11.4" \
 unipath==1.1 ; python_version >= "3.9" and python_full_version <= "3.11.4" \
     --hash=sha256:09839adcc72e8a24d4f76d63656f30b5a1f721fc40c9bcd79d8c67bdd8b47dae \
     --hash=sha256:e6257e508d8abbfb6ddd8ec357e33589f1f48b1599127f23b017124d90b0fff7
-urllib3==1.26.18 ; python_version >= "3.9" and python_full_version <= "3.11.4" \
-    --hash=sha256:34b97092d7e0a3a8cf7cd10e386f401b3737364026c45e622aa02903dffe0f07 \
-    --hash=sha256:f8ecc1bba5667413457c529ab955bf8c67b45db799d159066261719e328580a0
+urllib3==2.5.0 ; python_version >= "3.9" and python_full_version <= "3.11.4" \
+    --hash=sha256:3fc47733c7e419d4bc3f6b3dc2b4f890bb743906a30d56ba4a5bfa4bbff92760 \
+    --hash=sha256:e6b01673c0fa6a13e374b50871808eb3bf7046c4b125b216f6bf1cc604cff0dc
 validators==0.20.0 ; python_version >= "3.9" and python_full_version <= "3.11.4" \
     --hash=sha256:24148ce4e64100a2d5e267233e23e7afeb55316b47d30faae7eb6e7292bc226a
 yattag==1.15.1 ; python_version >= "3.9" and python_full_version <= "3.11.4" \
