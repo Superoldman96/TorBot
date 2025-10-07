@@ -28,7 +28,7 @@ dependencies = [
   "joblib==1.2.0",
   "macholib==1.16",
   "progress==1.6",
-  "pyinstaller==5.13.1",
+  "pyinstaller==6.0.0",
   "pyinstaller-hooks-contrib==2022.7",
   "PySocks==1.7.1",
   "python-dotenv==0.20.0",
