@@ -114,7 +114,6 @@ def get_robots_txt(client: httpx.Client, target: str, response: str) -> None:
     client.get(target + "robots.txt")
     print(target + "robots.txt")
     
-    # matches = re.findall(r"Allow: (.*)|Disallow: (.*)", response)
     matches = re.findall(r"Allow: (.*)|Disallow: (.*)", response.text)
     for match in matches:
         match = "".join(match)
