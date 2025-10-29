@@ -1,4 +1,3 @@
-tree = LinkTree("https://example.com", depth=0, client=client)  # type: ignore[arg-type]
 """Comprehensive tests for LinkTree and LinkNode classes.
 
 These tests verify:
