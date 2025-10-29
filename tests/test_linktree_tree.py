@@ -10,10 +10,9 @@ These tests verify:
 import json
 import tempfile
 from pathlib import Path
-from unittest.mock import Mock, patch
+from unittest.mock import patch
 
 import pytest
-from bs4 import BeautifulSoup
 
 from torbot.modules.linktree import LinkTree, LinkNode, parse_hostname
 
