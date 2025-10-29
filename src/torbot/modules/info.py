@@ -13,7 +13,6 @@ from termcolor import cprint
 
 from torbot.modules.linktree import LinkTree
 
-
 keys = set()  # high entropy strings, prolly secret keys
 files = set()  # pdf, css, png etc.
 intel = set()  # emails, website accounts, aws buckets etc.
@@ -134,7 +133,7 @@ def get_robots_txt(client: httpx.Client, target: str, response: str) -> None:
     target = "{0.scheme}://{0.netloc}/".format(urlsplit(url))
     client.get(target + "robots.txt")
     print(target + "robots.txt")
-    
+
     matches = re.findall(r"Allow: (.*)|Disallow: (.*)", response.text)
     for match in matches:
         match = "".join(match)
